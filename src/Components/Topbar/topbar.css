@@ -1,0 +1,63 @@
+.topbar{
+    height: 50px;
+    color: whitesmoke;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 25%, rgba(9,9,121,1) 72%, rgba(0,212,255,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+}
+.topLeft{
+    flex:4;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.topLeftMenu{
+    margin-right: 2px;
+}
+
+.Link{
+  color:whitesmoke
+}
+.topCenter{
+    flex:4;
+    font-size: 2rem;
+    font-family: 'Heebo', sans-serif;
+    color: #D6E4E5;
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topRight{
+    flex:4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.topList{
+    display: flex;
+    cursor: pointer;
+}
+
+.topLeftMenu{
+    margin-right: 10px;
+    list-style: none;
+}
+.icon{
+    margin-right: 20px;
+}
+
+.topImg{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+    cursor: pointer;
+}
